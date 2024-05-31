@@ -28,3 +28,16 @@ menuIcon[1].addEventListener('click',() => {
         isOpened =false
     } 
 })
+
+
+let lis = document.querySelectorAll("li")
+lis.forEach(li => {
+
+    li.onclick = function(){
+
+    lis.forEach(li =>{
+lis.classList.remove("active")
+    })
+        li.classList.add("active")
+    }
+})
