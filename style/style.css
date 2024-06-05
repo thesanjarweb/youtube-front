@@ -93,3 +93,15 @@ ul  {
  ul li.active {
     background-color: #f2f2f2;
  }
+ .caregory{
+  
+    padding: 10px 70px;
+
+ }
+ .category a{
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: black;
+    padding: 20px 30px;
+    font-size: 18;
+  }
